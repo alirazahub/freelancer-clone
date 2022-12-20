@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+body {
+  background-color: #f0f0f0;
+}
+nav {
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+i {
+  color: rgb(206, 206, 206);
+}
+
+.logo {
+  width: 140px;
+  padding: 5px;
+  margin-left: 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007fed;
+}
+.banner {
+  background-color: #007fed;
+}
+.banner .title {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 15px;
+}
+.btn_custom,
+.btn_custom2 {
+  margin: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+.btn_custom {
+  padding: 5px 10px;
+  background-color: #f77d0e;
+  border: 1px solid #f77d0e;
+}
+.btn_custom:hover {
+  color: #fff;
+  background-color: #fc8c14;
+  border: 1px solid #fc8c14;
+}
+.btn_custom2 {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+}
+.btn_custom2:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+.breadcrumb-item a {
+  color: grey;
+}
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.search {
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 12%), 0 4px 10px 0 rgb(0 0 0 / 16%);
+  padding: 3px;
+}
+.custom_input {
+  border: none;
+  padding: 17px;
+}
+.custom_input:focus {
+  box-shadow: none;
+}
+.button {
+  display: inline;
+}
+.btn-search {
+  background: #007fed;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  float: right;
+  padding: 15px 30px !important;
+}
+.btn-search:hover {
+  background-color: #139ff0;
+  color: #fff;
+}
+.butn {
+  padding: 0;
+}
+.icon.col-md-1 {
+  padding: 10px;
+  font-size: 25px;
+}
+.bars {
+  margin-top: 20px;
+}
+.side_nav.col-md-3 {
+  padding-left: 0;
+}
+.right_nav.col-md-9 {
+  padding-right: 0;
+}
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 12%), 0 4px 10px 0 rgb(0 0 0 / 16%);
+}
+.filter_btn {
+  border: 1px solid grey;
+  background-color: transparent;
+}
+.pagination {
+  float: right;
+}
+button#dropdownMenuButton1 {
+  padding: 5px 35px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #58a9f0;
+}
+.card-text.side_title {
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding-bottom: 40px;
+}
+.card-text.side_text {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.card-text.side_textt {
+  font-weight: 700;
+  font-size: 17px;
+  margin: 15px 0;
+}
+.checkbox {
+  margin: 0 0 10px 0;
+}
+.container.side_check.row {
+  margin: 13px 0;
+}
+label.form-check-label.checkbox {
+  margin: 10px 0;
+}
+input#exampleCheck1,
+input#exampleCheck2,
+input#exampleCheck3,
+input#exampleCheck4,
+input#exampleCheck5,
+input#exampleCheck6,
+input#exampleCheck7,
+input#exampleCheck8,
+input#exampleCheck9,
+input#exampleCheck10,
+input#exampleCheck11 {
+  margin: 15px -28px;
+}
+input.form-control.col-md-2 {
+  width: 71px;
+}
+button#dropdownMenuButton {
+  padding: 5px 65px;
+}
+ul.dropdown-menu.customdd.show {
+  width: 236px;
+}
+.bb {
+  border-bottom: 1px solid rgb(180, 179, 179);
+  margin: 20px 0;
+}
+.card_title{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.card_title:hover{
+  text-decoration: underline;
+}
+.status{
+  color: green;
+  display: inline;
+}
+.Icon.is-success {
+  fill: #5dc26a;
+}
+.card-text.lg_text {
+  margin: 10px 0;
+}
+.card-text.links {
+  margin: 10px 0px;
+}
+.card-text.links a {
+  margin: 0 10px 0px 0px;
+}
+.card-text.links a:hover{
+  text-decoration: underline;
+}
+.left_card{
+  float: left;
+  width: 80%;
+}
+.right_card{
+  float: right;
+  width: 15%;
+}
+.right_card .text span{
+  font-weight: 700;
+}
+.adss{
+  cursor: pointer;
+}
+
+.adss:hover{
+  background-color: #F7F7F7; 
+}
+.filter_icon{
+  font-size: 35px;
+  display: none;
+}
+
+/* media query */
+
+@media only screen and (max-width: 754px){
+  .side_nav,.dl{
+    display: none;
+  }
+  .right_card{
+    width: 20%;
+  }
+  .btn-search{
+    text-align: center;
+    width: 100%;
+  }
+  .filter_icon{
+    display: block;
+    float: right;
+  }
+}
